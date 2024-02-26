@@ -1,0 +1,49 @@
+.app {
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #cd6767;
+  margin-bottom: 5px;
+}
+
+.delete {
+  cursor: pointer;
+  color: rgb(111, 0, 255);
+}
+
+.clearButton {
+  background-color: #d0d06b;
+  border: 1px solid #93c971;
+  color: #333;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.clearButton:hover {
+  background-color: #396875;
+}
